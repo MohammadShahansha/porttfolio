@@ -8,16 +8,13 @@
 /* heading style start */
 .header-part {
     background-color: #FFF8F3;
-    background-image: url(images/header_bg.png);
+    background-image: url('images/dd.png'), url('images/developer.png');
     background-repeat: no-repeat;
-    background-position: right bottom;
+    background-position: right bottom, left;
+    background-size: auto, 90px;
+
 }
 
-.another-header-part {
-    background-image: url('images/developer.png');
-    background-repeat: no-repeat;
-    background-position: left;
-}
 
 nav {
     display: flex;
@@ -119,7 +116,7 @@ main {
 
 .info-container {
     display: flex;
-    
+
 }
 
 .info-abute {
@@ -137,4 +134,17 @@ main {
     font-weight: 700;
     font-size: 20px;
     color: #474747;
+}
+
+.what-title {
+    margin-top: 136px;
+    margin-bottom: 30px;
+}
+
+.what-discription {
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin:0px 115px 50px;
 }
