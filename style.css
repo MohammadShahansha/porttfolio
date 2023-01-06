@@ -20,6 +20,7 @@ nav {
     display: flex;
     justify-content: space-between;
     margin: 0px 200px;
+    padding-top: 30px;
 }
 
 nav ul {
@@ -74,6 +75,8 @@ nav ul li {
 .butt-cv {
     width: 200px;
     height: 64px;
+    font-weight: 700;
+    font-size: 20px;
 }
 
 .bannar-para {
@@ -192,7 +195,8 @@ main {
     display: flex;
     gap: 71px;
 }
-.resume-container hr{
+
+.resume-container hr {
     border: 1px solid #D1D1D1;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -204,11 +208,13 @@ main {
     font-size: 30px;
     color: #474747;
 }
+
 .resume-head {
     font-weight: 700;
     font-size: 25px;
     color: #474747;
 }
+
 .resume-para-one {
     margin-top: 10px;
     margin-bottom: 20px;
@@ -216,14 +222,87 @@ main {
     font-size: 20px;
     color: #757575;
 }
+
 .resume-para-two {
     font-weight: 400;
     font-size: 16px;
     color: #757575;
 }
 
-.another-download-butt{
+.another-download-butt {
     margin: 50px 500px 113px 500px;
+    font-weight: 700;
+    font-size: 20px;
     width: 200px;
     height: 64px;
+}
+
+/*footer start*/
+
+footer {
+    background: #FFF8F3;
+    padding: 130px 170px 0px;
+}
+
+.footer {
+    display: flex;
+    gap: 117px;
+}
+
+.foot-container h3 {
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+}
+
+.foot-container p {
+    font-weight: 400;
+    font-size: 16px;
+
+    color: #474747;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.foot-container img {
+    margin-right: 24px;
+}
+
+.foot-container a {
+    text-decoration: none;
+}
+
+.foot-container input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+
+.foot-container input[type="text"] {
+    margin-top: 28px;
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 18px 30px;
+    color: #757575;
+}
+
+.foot-container input[type="email"],
+textarea {
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 18px 30px;
+    color: #757575;
+}
+
+.foot-container input[type="submit"] {
+    padding: 18px 39px;
+    text-align: center;
+    width: 150px;
+    height: 64px;
+    font-weight: 700;
+    font-size: 20px;
 }
